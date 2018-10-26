@@ -29,8 +29,7 @@ Array.pop()
 return Array
 }
 function removeElementFromEndOfArray (Array) {
-  Array.slice(0,Array.length - 1)
-  return Array
+  return Array.slice(0,Array.length - 1)
 }
 
 
